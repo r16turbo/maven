@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.gambusia</groupId>
+  <artifactId>gambusia</artifactId>
+  <version>0.4.1</version>
+  <name>gambusia</name>
+  <description>Netty-based MQTT v3.1.1 lightweight client</description>
+  <url>https://github.com/r16turbo/gambusia</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>r16turbo</id>
+      <name>Issey Yamakoshi</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/r16turbo/gambusia</connection>
+    <developerConnection>scm:git:git://github.com/r16turbo/gambusia</developerConnection>
+    <url>https://github.com/r16turbo/gambusia</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/r16turbo/gambusia/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-codec-mqtt</artifactId>
+      <version>4.1.13.Final</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
